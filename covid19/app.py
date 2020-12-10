@@ -314,8 +314,8 @@ def covid_classifier_model2(img_path, filename):
         prediction = 'Covid-19 Negative; Bacterial Penumonia Negative'
         prob = pred_pos
 
-    img_pred_name = prediction + str(prob) + filename + '.png'  # prediction+'_Prob_'+str(prob)+'_Name_'+filename+'.png'
-    cv2.imwrite('static/result/' + img_pred_name, img_out)
+    # img_pred_name = prediction + str(prob) + filename + '.png'  # prediction+'_Prob_'+str(prob)+'_Name_'+filename+'.png'
+    # cv2.imwrite('static/result/' + img_pred_name, img_out)
     cv2.imwrite('static/Image_Prediction.png', img_out)
     print
     return prediction, prob, img_pred_name
