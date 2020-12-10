@@ -187,7 +187,7 @@ ALLOWED_EXTENSIONS = set(['pdf', 'png', 'jpg', 'jpeg', 'PDF', 'PNG', 'JPG', 'JPE
 
 # covid_pneumo_model = load_model('./models/inceptionv3_saved.h5') #inceptionv3_saved.h5, covid_pneumo_model.h5
 # covid_pneumo_model = load_model('./models/inceptionv3.h5')
-covid_pneumo_model = load_model('./models/inceptionv3_base.h5')
+# covid_pneumo_model = load_model('./models/inceptionv3_base.h5')
 
 app = Flask(__name__)
 CORS(app)
